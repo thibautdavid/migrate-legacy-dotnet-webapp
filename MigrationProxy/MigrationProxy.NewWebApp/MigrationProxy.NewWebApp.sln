@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationProxy.NewWebApp", "MigrationProxy.NewWebApp.csproj", "{8EF8D73D-B40C-4C2E-A6C5-238A62B7A268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationProxy.LegacyWebApp", "..\MigrationProxy.LegacyWebApp\MigrationProxy.LegacyWebApp.csproj", "{8C3342DF-21B9-4291-9AD8-C64C00A6A0EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF8D73D-B40C-4C2E-A6C5-238A62B7A268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF8D73D-B40C-4C2E-A6C5-238A62B7A268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF8D73D-B40C-4C2E-A6C5-238A62B7A268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF8D73D-B40C-4C2E-A6C5-238A62B7A268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3342DF-21B9-4291-9AD8-C64C00A6A0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3342DF-21B9-4291-9AD8-C64C00A6A0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3342DF-21B9-4291-9AD8-C64C00A6A0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3342DF-21B9-4291-9AD8-C64C00A6A0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FBB9C7F-6FB4-4AD4-8953-289EF6A0818C}
+	EndGlobalSection
+EndGlobal
